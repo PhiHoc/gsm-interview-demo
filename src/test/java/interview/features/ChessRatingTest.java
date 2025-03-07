@@ -34,7 +34,7 @@ public class ChessRatingTest {
     private static Actor krail = Actor.named("Krail");
 
     @Managed(uniqueSession = true)
-    public static WebDriver hisBrowser = new ChromeDriver();
+    public static WebDriver hisBrowser;
 
     @BeforeAll
     static void setup() throws IOException {

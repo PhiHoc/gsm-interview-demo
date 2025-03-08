@@ -15,7 +15,7 @@ public class CalculatorPage {
             .located(By.id("com.miui.calculator:id/op_add"));
 
     public static final Target EQUAL_BUTTON = Target.the("Equal button")
-            .located(By.id("com.miui.calculator:id/eq"));
+            .located(By.id("com.miui.calculator:id/btn_equal_s"));
 
     public static final Target RESULT_FIELD = Target.the("Result field")
             .located(By.id("com.miui.calculator:id/result"));
